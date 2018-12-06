@@ -1,6 +1,7 @@
 language: ruby
 rvm:
   - 1.8.7
+  - 1.9.3
 script: "rake test"
 branches:
   only:
@@ -10,6 +11,7 @@ env:
   - PUPPET_VERSION=2.7.13
   - PUPPET_VERSION=2.7.9
   - PUPPET_VERSION=2.6.9
+  - PUPPET_VERSION=3.8.1
 notifications:
   email: false
 gemfile: .gemfile
